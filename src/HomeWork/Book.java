@@ -2,10 +2,10 @@ package HomeWork;
 
 public class Book {
     private String nameBook;
-    private String authorBook;
+    private Author authorBook;
     private int jearBook;
 
-    public Book(String nameBook, String authorBook, int jearBook) {
+    public Book(String nameBook, Author authorBook, int jearBook) {
         this.nameBook = nameBook;
         this.authorBook = authorBook;
         this.jearBook = jearBook;
@@ -15,7 +15,7 @@ public class Book {
         return this.nameBook;
     }
 
-    public String getAuthorBook() {
+    public Author getAuthorBook() {
         return this.authorBook;
     }
 
